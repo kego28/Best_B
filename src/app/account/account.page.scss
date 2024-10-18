@@ -1,0 +1,76 @@
+ion-segment {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    ion-item {
+      margin-bottom: 15px;
+    }
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .account-page {
+    .header-image {
+      background-image: url('accb.png');
+      background-size: cover;
+      background-position: 50% 50%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      h1 {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+  
+    .account-options {
+      display: flex;
+      justify-content: space-around;
+      background-color: white;
+      padding: 20px 0;
+      margin-top: -20px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+  
+      .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+  
+        ion-icon {
+          font-size: 24px;
+          margin-bottom: 5px;
+        }
+  
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  
+    .orders-section {
+      padding: 20px;
+  
+      table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          text-align: left;
+          padding: 10px;
+          border-bottom: 1px solid #ddd;
+        }
+  
+        th {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
